@@ -175,7 +175,7 @@ var Employee = (function () {
     return Employee;
 }());
 var e1 = new Employee("secret_passcode");
-e1.fullName = "Shailendra Chauhan";
+e1.fullName = "Akash Varshney";
 if (e1.fullName) {
     console.log(e1.fullName);
 }

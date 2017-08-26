@@ -11,7 +11,7 @@ var numList = [1, 2, 3];
 //-----------------
 // The Tuple type represents a JavaScript array where you can define the datatype of each element in array.
 var tuple;
-tuple = ["Gurukulsight", 1];
+tuple = ["learntypescript", 1];
 // Function
 //------------------
 // Like JavaScript, TypeScript functions can be created both as a named function or as an anonymous function. 

@@ -14,8 +14,8 @@ let yes: boolean = true;
 let no: boolean = false;
 
 //String
-let name: string = "Shailendra Chauhan";
-let site: string = 'www.gurukulsight.com';
+let name: string = "Akash Varshney";
+let site: string = 'www.learntypescript.com';
 
 // Void
 
@@ -24,7 +24,7 @@ let site: string = 'www.gurukulsight.com';
 // The void type is mostly used as a function return type that 
 // does not return a value or as a type argument for a generic class or function.
 function displayMeassge(): void {
-console.log("Welcome to Gurukulsight!");
+console.log("Welcome to learntypescript!");
 }
 let unusable: void = undefined;
 

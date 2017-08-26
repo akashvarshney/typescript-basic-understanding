@@ -15,7 +15,7 @@ let numList: Array<number> = [1, 2, 3];
 // The Tuple type represents a JavaScript array where you can define the datatype of each element in array.
 
 let tuple: [string, number];
-tuple = ["Gurukulsight", 1];
+tuple = ["learntypescript", 1];
 
 // Function
 //------------------

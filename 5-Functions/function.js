@@ -115,7 +115,7 @@ var result = add(2, 3); //5
 // Let’s understand the concept with the following example.
 var Messenger = (function () {
     function Messenger() {
-        this.message = "Hello Gurukulsight!";
+        this.message = "Hello learntypescript!";
     }
     Messenger.prototype.greetArrow = function () {
         var _this = this;
@@ -133,6 +133,6 @@ var Messenger = (function () {
 }());
 ;
 var m1 = new Messenger();
-m1.greetArrow(); //Hello Gurukulsight!
+m1.greetArrow(); //Hello learntypescript!
 m1.greetAnonymous(); //undefined
 //# sourceMappingURL=function.js.map

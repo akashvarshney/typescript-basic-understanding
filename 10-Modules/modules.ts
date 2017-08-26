@@ -38,7 +38,7 @@ export class Student {
 
 //importing the exporting types Student and Employee from myModule file
 import { Student, Employee } from "./myModule";
-let st = new Student(1, "Mohan");
+let st = new Student(1, "akash");
 let result1 = st.showDetails();
 console.log("Student Details :" + result1);
 let emp = new Employee("Shailendra", "Chauhan");
@@ -59,6 +59,6 @@ export const numberRegexp = /^[0-9]+$/;
 // Now, you can import the types form re_export file as given below:
 //importing the exporting types from reexport file
 import { st as Student, numberRegexp } from "./reExport"; importing st as Student
-let st = new Student(1, "Mohan");
+let st = new Student(1, "akash");
 let result1 = st.showDetails();
 console.log("Student Details :" + result1);

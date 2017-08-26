@@ -8,7 +8,7 @@
 
 
 let firstname: string = "Shailendra";
-let site : string = 'Gurukulsight';
+let site : string = 'learntypescript';
 //string concatenation
 let str = 'Hello, my name is ' + firstname + ' and I am the founder of ' + site;
 console.log(str);
@@ -22,7 +22,7 @@ console.log(str);
 // ---------------
 
 let firstname: string = "Shailendra";
-let site: string = 'Gurukulsight';
+let site: string = 'learntypescript';
 //template string
 let str = `Hello, my name is ${firstname}
 and I am the founder of ${site}`;
@@ -42,7 +42,7 @@ console.log(str);
 <variable_declaration> <identifier> : <type_annotation>;
 
 let num: number = 2; //type of num is number
-let str: string = "Gurukulsight"; //type of str is string
+let str: string = "learntypescript"; //type of str is string
 let numberList: number[] = [1, 2, 3]; //type of numberList is number array
 
 // Type Inference
@@ -51,10 +51,10 @@ let numberList: number[] = [1, 2, 3]; //type of numberList is number array
 // Type inference is a mechanism to determine the type of data at compile time in the
 // absence of explicit type annotations. TypeScript will infer the type from the initial value.
 
-let myString = 'Hello Gurukulsight'; // string
+let myString = 'Hello learntypescript'; // string
 let myBool = true; // boolean
 let myNumber = 1.23; // number
-let myArray = ['Hello', 'Gurukulsight']; // string[]
+let myArray = ['Hello', 'learntypescript']; // string[]
 
 
 // Type Assertion
@@ -65,5 +65,5 @@ let myArray = ['Hello', 'Gurukulsight']; // string[]
 // Angle-bracket syntax
 
 
-let anyValue: any = "Welcome to www.gurukulsight.com!";
+let anyValue: any = "Welcome to www.learntypescript.com!";
 let strLength: number = (<string>anyValue).length;

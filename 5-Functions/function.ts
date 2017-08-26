@@ -142,7 +142,7 @@ let result = add(2, 3); //5
 // Let’s understand the concept with the following example.
 
 class Messenger {
-    message: string = "Hello Gurukulsight!";
+    message: string = "Hello learntypescript!";
     greetArrow(): void {
     //arrow function as a callback
     setTimeout(() => console.log(this.message), 2000); //contains parent scope
@@ -156,5 +156,5 @@ class Messenger {
     }
 };
 let m1 = new Messenger();
-m1.greetArrow(); //Hello Gurukulsight!
+m1.greetArrow(); //Hello learntypescript!
 m1.greetAnonymous(); //undefined

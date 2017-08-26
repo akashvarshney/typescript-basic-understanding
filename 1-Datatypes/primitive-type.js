@@ -9,15 +9,15 @@ var octal = 7;
 var yes = true;
 var no = false;
 //String
-var name = "Shailendra Chauhan";
-var site = 'www.gurukulsight.com';
+var name = "Akash Varshney";
+var site = 'www.learntypescript.com';
 // Void
 // The Void primitive type represents the absence of a value. 
 // The void keyword is used to define Void type in TypeScript but it is not useful because you can only assign null or undefined values to it.
 // The void type is mostly used as a function return type that 
 // does not return a value or as a type argument for a generic class or function.
 function displayMeassge() {
-    console.log("Welcome to Gurukulsight!");
+    console.log("Welcome to learntypescript!");
 }
 var unusable = undefined;
 //Null
